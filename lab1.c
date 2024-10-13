@@ -24,7 +24,7 @@ void selectionsort(int a[], int n) {
     }
 }
 
-void main() {
+int main() {
     int i, n, *a;
 
     printf("Enter the array size: ");
@@ -41,4 +41,5 @@ void main() {
     printf("\nThe sorted array is: ");
     for(i = 0; i < n; i++) 
         printf("%d\n", a[i]);
+    return 0;
 }
